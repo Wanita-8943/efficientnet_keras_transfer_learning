@@ -1,8 +1,8 @@
-#My Main Project
-## Github Rt
-  - ([Train](https://github.com/Wanita-8943/Main_Project#classification)) 
-## Github Lt
-  - ([Train](https://github.com/Wanita-8943/My_Main_Project_Lt-#my_main_project_lt-)) 
+# ------------------------------------------------
+# My Main Project
+## Github Rt ([Train](https://github.com/Wanita-8943/Main_Project#classification)) 
+## Github Lt ([Train](https://github.com/Wanita-8943/My_Main_Project_Lt-#my_main_project_lt-)) 
+# ------------------------------------------------
 
 
 # EfficientNet-Keras
