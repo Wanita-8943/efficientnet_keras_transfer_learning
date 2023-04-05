@@ -1,11 +1,11 @@
 # ------------------------------------------------
 # My Main Project
-## Github Rt ([Train](https://github.com/Wanita-8943/Main_Project#classification)) 
-## Github Lt ([Train](https://github.com/Wanita-8943/My_Main_Project_Lt-#my_main_project_lt-)) 
+  ## Github Rt ([Train](https://github.com/Wanita-8943/Main_Project#classification)) 
+  ## Github Lt ([Train](https://github.com/Wanita-8943/My_Main_Project_Lt-#my_main_project_lt-)) 
 # ------------------------------------------------
 
 
-# EfficientNet-Keras
+## EfficientNet-Keras
 
 This repository contains Keras reimplementation of EfficientNet, the new convolutional neural network architecture from [EfficientNet](https://arxiv.org/abs/1905.11946) ([TensorFlow implementation](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)). 
 
