@@ -39,14 +39,14 @@ class DropConnect(KL.Layer):
         Returns:
         Tensor output after applying DropConnect.
         """
-        def drop_connect():
+        if training:  # This condition will be true during training
             keep_prob = 1.0 - self.drop_connect_rate
             shape = tf.shape(inputs)
             random_tensor = keep_prob + tf.random.uniform(shape, dtype=inputs.dtype)
             binary_tensor = tf.floor(random_tensor)
             return tf.divide(inputs, keep_prob) * binary_tensor
-
-        return K.in_train_phase(drop_connect, inputs, training=training)
+        else:
+            return inputs
 
     def get_config(self):
         """
@@ -62,3 +62,4 @@ get_custom_objects().update({
     'DropConnect': DropConnect,
     'Swish': Swish,
 })
+
